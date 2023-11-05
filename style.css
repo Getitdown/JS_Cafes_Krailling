@@ -1,0 +1,55 @@
+.heading {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(251, 248, 149);
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+}
+
+.input-field {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+.search {
+    flex: 1;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 7px;
+}
+
+.text {
+    font-size: 20px;
+    width: 400px;
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.container, .parent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.restaurant {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    background-color: rgb(249, 249, 201);
+}
+.parent img {
+    margin: 20px;
+}
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 5px;
+}
+.list {
+    font-family: 'Dancing Script', cursive;
+    margin-top: -5px
+}
